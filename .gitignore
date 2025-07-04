@@ -1,0 +1,16 @@
+bin/
+dist/
+*.exe
+*.test
+
+.env
+config.yml
+config.yaml
+config.local.*
+
+.idea/
+.vscode/
+*.swp
+
+go.sum
+/go/pkg/mod/
