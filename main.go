@@ -14,6 +14,7 @@ func main() {
 	//TODO: middleware
 
 	//TODO: init router
+
 	router := chi.NewRouter()
 
 	router.Get("/", mainhandler.New())
